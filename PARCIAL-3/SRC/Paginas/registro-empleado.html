@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="StyleEmpleado.css">
+  <title>Registro de Empleado</title>
+</head>
+<body>
+    <div class="form-container">
+        <div class="form-container">
+            <div class="header">
+              <img src="Imagen/UNICOLOMBO.jpg" alt="Logo" class="logo">
+              <h2>Registro de Empleado</h2>
+            </div>
+    <form>
+      <div class="form-group">
+        <label for="tipo-documento">Tipo de documento</label>
+        <select id="tipo-documento" name="tipo-documento">
+          <option value="">Seleccionar tipo de documento</option>
+          <option value="cedula">Cédula</option>
+          <option value="pasaporte">Pasaporte</option>
+          <option value="otro">Otro</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="numero-documento">Número de documento</label>
+        <input type="text" id="numero-documento" name="numero-documento">
+      </div>
+      <div class="form-group">
+        <label for="primer-nombre">Primer nombre</label>
+        <input type="text" id="primer-nombre" name="primer-nombre">
+      </div>
+      <div class="form-group">
+        <label for="segundo-nombre">Segundo nombre</label>
+        <input type="text" id="segundo-nombre" name="segundo-nombre">
+      </div>
+      <div class="form-group">
+        <label for="primer-apellido">Primer apellido</label>
+        <input type="text" id="primer-apellido" name="primer-apellido">
+      </div>
+      <div class="form-group">
+        <label for="segundo-apellido">Segundo apellido</label>
+        <input type="text" id="segundo-apellido" name="segundo-apellido">
+      </div>
+      <div class="form-group">
+        <label for="telefono">Teléfono</label>
+        <input type="tel" id="telefono" name="telefono">
+      </div>
+      <div class="form-group">
+        <label for="celular">Celular</label>
+        <input type="tel" id="celular" name="celular">
+      </div>
+      <div class="form-group">
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email">
+      </div>
+      <div class="form-group">
+        <label for="genero">Género</label>
+        <select id="genero" name="genero">
+          <option value="">Seleccionar género</option>
+          <option value="masculino">Masculino</option>
+          <option value="femenino">Femenino</option>
+          <option value="otro">Otro</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="municipio-residencia">Municipio de residencia</label>
+        <select id="municipio-residencia" name="municipio-residencia">
+          <option value="">Seleccionar municipio</option>
+          <option value="medellin">Medellín</option>
+          <option value="bogota">Bogotá</option>
+          <option value="cali">Cali</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="departamento-residencia">Departamento de residencia</label>
+        <select id="departamento-residencia" name="departamento-residencia">
+          <option value="">Seleccionar departamento</option>
+          <option value="antioquia">Antioquia</option>
+          <option value="cundinamarca">Cundinamarca</option>
+          <option value="valle-del-cauca">Valle del Cauca</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="direccion">Dirección</label>
+        <input type="text" id="direccion" name="direccion">
+      </div>
+      <div class="form-group">
+        <label for="empresa-seleccionada">Empresa seleccionada</label>
+        <select id="empresa-seleccionada" name="empresa-seleccionada">
+          <option value="">Seleccionar empresa</option>
+          <option value="empresa1">Empresa 1</option>
+          <option value="empresa2">Empresa 2</option>
+          <option value="empresa3">Empresa 3</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="cargo">Cargo</label>
+        <input type="text" id="cargo" name="cargo">
+      </div>
+      <div class="form-group">
+        <label for="dependencia">Dependencia</label>
+        <input type="text" id="dependencia" name="dependencia">
+      </div>
+      <div class="form-group">
+        <label for="estado">Estado</label>
+        <input type="text" id="estado" name="estado">
+      </div>
+      <button type="submit">Enviar</button>
+    </form>
+  </div>
+</body>
+</html>

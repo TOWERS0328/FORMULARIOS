@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="StyleEstudiante.css">
+  <title>Registro de Programa Académico</title>
+</head>
+<body>
+  <div class="form-container">
+    <div class="header">
+      <img src="Imagen/UNICOLOMBO.jpg" alt="Logo">
+      <h2>Registro de Programa Académico</h2>
+    </div>
+    <form>
+      <div class="form-group">
+        <label for="nombre-programa">Nombre del Programa *</label>
+        <input type="text" id="nombre-programa" name="nombre-programa" required>
+      </div>
+      <div class="form-group">
+        <label for="nombre-abreviado">Nombre Abreviado</label>
+        <input type="text" id="nombre-abreviado" name="nombre-abreviado">
+      </div>
+      <div class="form-group">
+        <label for="nivel-formacion">Nivel de Formación *</label>
+        <select id="nivel-formacion" name="nivel-formacion" required>
+          <option value="">Seleccionar Nivel de Formación</option>
+          <option value="nivel1">Primaria</option>
+          <option value="nivel2">Bachiller</option>
+          <option value="nivel3">Pregrado </option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="snies">SNIES</label>
+        <input type="text" id="snies" name="snies">
+      </div>
+      <div class="form-group">
+        <label for="coordinador-academico">Coordinador Académico</label>
+        <input type="text" id="coordinador-academico" name="coordinador-academico">
+      </div>
+      <div class="form-group">
+        <label for="estado">Estado</label>
+        <select id="estado" name="estado">
+          <option value="">Seleccionar Estado</option>
+          <option value="activo">Activo</option>
+          <option value="inactivo">Inactivo</option>
+        </select>
+      </div>
+      <div class="checkbox-group">
+        <input type="checkbox" id="practicas" name="practicas">
+        <label for="practicas">Realizar Prácticas</label>
+      </div>
+      <div class="form-group">
+        <label for="duracion">Duración (Meses)</label>
+        <input type="number" id="duracion" name="duracion">
+      </div>
+      <button type="submit" class="btn">Agregar</button>
+    </form>
+  </div>
+</body>
+</html>
